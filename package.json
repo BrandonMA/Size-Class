@@ -1,6 +1,6 @@
 {
     "name": "@bma98/size-class",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "React Native library to standarize width and height sizes",
     "author": "BrandonMA",
     "license": "MIT",
