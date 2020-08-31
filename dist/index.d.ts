@@ -1,27 +1,33 @@
+import { DeviceType } from 'expo-device';
 export declare enum WidthSize {
-    compactPhone = 812,
-    largePhone = 896,
-    compactTablet = 768,
-    largeTablet = 1024,
-    compactDesktop = 1680,
-    largeDesktop = 2048
+    compactPhone = 375,
+    largePhone = 667,
+    compactTablet = 592,
+    largeTablet = 768,
+    extraLargeTablet = 1366,
+    compactDesktop = 592,
+    largeDesktop = 826,
+    extraLargeDesktop = 1680
 }
 export declare enum HeightSize {
     compactPhone = 667,
     largePhone = 812,
-    compactDesktop = 945,
-    largeDesktop = 1152
+    compactTablet = 768,
+    largeTablet = 834,
+    extraLargeTablet = 1024,
+    compactDesktop = 597,
+    largeDesktop = 775,
+    extraLargeDesktop = 1050
 }
-export declare enum SizeClass {
-    compact = 375,
-    medium = 414,
-    large = 768,
-    extraLarge = 1024
+export declare enum Size {
+    compact = 0,
+    medium = 1,
+    large = 2,
+    extraLarge = 3
 }
 export interface StyledComponentSizeClassProps {
     widthSizeClass: WidthSize;
     heightSizeClass: HeightSize;
 }
-export declare function useWidthSizeClass(): WidthSize;
-export declare function useHeightSizeClass(): HeightSize;
-export declare function useSizeClass(): [WidthSize, HeightSize];
+export declare function useWidthSizeClass(): [Size, DeviceType] | null;
+export declare function useHeightSizeClass(): [Size, DeviceType] | null;
