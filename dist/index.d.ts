@@ -20,11 +20,12 @@ export declare enum HeightSize {
     extraLargeDesktop = 1050
 }
 export declare enum Size {
-    compact = 0,
-    medium = 1,
-    large = 2,
-    extraLarge = 3
+    compact = "compact",
+    medium = "medium",
+    large = "large",
+    extraLarge = "extraLarge"
 }
+export declare function getStringNameFromDeviceTypeEnum(type: DeviceType): 'unknown' | 'phone' | 'tablet' | 'desktop' | 'tv';
 export interface StyledComponentSizeClassProps {
     widthSizeClass: WidthSize;
     heightSizeClass: HeightSize;

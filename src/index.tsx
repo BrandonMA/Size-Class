@@ -26,10 +26,25 @@ export enum HeightSize {
 }
 
 export enum Size {
-    compact,
-    medium,
-    large,
-    extraLarge
+    compact = 'compact',
+    medium = 'medium',
+    large = 'large',
+    extraLarge = 'extraLarge'
+}
+
+export function getStringNameFromDeviceTypeEnum(type: DeviceType): 'unknown' | 'phone' | 'tablet' | 'desktop' | 'tv' {
+    switch (type) {
+        case 1:
+            return 'phone';
+        case 2:
+            return 'tablet';
+        case 3:
+            return 'desktop';
+        case 4:
+            return 'tv';
+        default:
+            return 'unknown';
+    }
 }
 
 // Interace to use styled components easier
