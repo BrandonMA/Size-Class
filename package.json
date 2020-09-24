@@ -1,6 +1,6 @@
 {
     "name": "@bma98/size-class",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "React Native library to standarize width and height sizes",
     "author": "BrandonMA",
     "license": "MIT",
@@ -36,15 +36,15 @@
         "prettier": "^2.0.4",
         "rollup": "^2.3.4",
         "typescript": "^3.9.2",
-        "react": "~16.11.0",
-        "react-native": "0.62.2"
+        "react": "~16.13.1",
+        "react-native": "~0.63.2"
     },
     "dependencies": {
-        "expo-device": "~2.2.1",
+        "expo-device": "~2.3.0",
         "react-native-responsive-dimensions": "^3.1.1"
     },
     "peerDependencies": {
-        "react": "~16.11.0",
-        "react-native": "0.62.2"
+        "react": "~16.13.1",
+        "react-native": "~0.63.2"
     }
 }
