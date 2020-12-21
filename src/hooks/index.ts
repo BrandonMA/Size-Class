@@ -1,2 +1,2 @@
-export * from './useHeightSizeClass';
-export * from './useWidthSizeClass';
+export * from './useHeightSizeGroup';
+export * from './useWidthSizeGroup';

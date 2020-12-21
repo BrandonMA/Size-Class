@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb1704e6-54df-427c-8f99-76ae39c959c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDeviceType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useHeightSizeGroup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useSizeValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useWidthSizeGroup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/DimensionsListenerParameter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/HeightSizeClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/SizeClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/SizeGroup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/WidthSizeClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getDesktopSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getPhoneSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getSizeForType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getTabletSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getValueForLargeSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getValueForSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/isDesktop.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/enums/HeightSize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/enums/Size.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/enums/WidthSize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/enums/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hooks/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hooks/useHeightSizeClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hooks/useWidthSizeClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.modern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.modern.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utilityFunctions/getStringNameFromDeviceTypeEnum.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utilityFunctions/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utilityFunctions/isDesktop.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/HeightSize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/Size.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Size.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/WidthSize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useHeightSizeClass.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useWidthSizeClass.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilityFunctions/getStringNameFromDeviceTypeEnum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getStringNameFromDeviceType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilityFunctions/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilityFunctions/isDesktop.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lz7wmqi5ygHJubOOKowPaf6kAE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Program Files\nodejs\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\Maldo\Documents\GitHub\Size-Class\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maldo\Documents\GitHub\Size-Class\src" />
+      <recent name="C:\Users\Maldo\Documents\GitHub\Size-Class" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb1704e6-54df-427c-8f99-76ae39c959c5" name="Default Changelist" comment="" />
+      <created>1608588307318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608588307318</updated>
+      <workItem from="1608588308564" duration="1031000" />
+      <workItem from="1608589625978" duration="381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
