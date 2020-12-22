@@ -1,0 +1,11 @@
+{
+  "extends": "C:\\Users\\Maldo\\Documents\\GitHub\\Size-Class\\tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "..\\node_modules\\@types",
+      "C:\\Users\\Maldo\\Documents\\GitHub\\Size-Class\\node_modules\\expo-module-scripts\\ts-declarations"
+    ]
+  }
+}

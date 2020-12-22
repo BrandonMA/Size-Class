@@ -1,4 +1,4 @@
-# Size-Class
+# @bma98/size-class
 
 React Native library to handle different sizes inspired on iOS size classes.
 
