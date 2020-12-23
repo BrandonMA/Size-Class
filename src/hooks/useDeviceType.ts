@@ -1,9 +1,9 @@
 import { DeviceType, getDeviceTypeAsync } from 'expo-device';
 import { useLayoutEffect, useState } from 'react';
-import { getDefaultValueBasedOnPlatform } from '../util/getDefaultValueBasedOnPlatform';
+import { getDefaultDeviceType } from '../util/getDefaultDeviceType';
 
 export function useDeviceType(): DeviceType {
-    const [type, setType] = useState<DeviceType>(getDefaultValueBasedOnPlatform());
+    const [type, setType] = useState<DeviceType>(getDefaultDeviceType());
 
     useLayoutEffect(() => {
         getDeviceTypeAsync()
@@ -11,7 +11,7 @@ export function useDeviceType(): DeviceType {
                 return setType(type);
             })
             .catch((error) => {
-                console.log(error);
+                alert(error.message);
             });
     }, []);
 
