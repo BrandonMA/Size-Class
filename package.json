@@ -16,8 +16,7 @@
         "test": "jest",
         "clean": "rm -rf ./dist",
         "format": "prettier --write App.tsx src/**/*.{ts,tsx}",
-        "lint": "eslint src/ --fix",
-        "deploy": "npm version patch && npm publish && git push"
+        "lint": "eslint src/ --fix"
     },
     "devDependencies": {
         "@babel/core": "~7.9.0",
