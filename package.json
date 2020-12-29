@@ -1,6 +1,6 @@
 {
     "name": "@bma98/size-class",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "React Native library to improve width and height handling",
     "author": "BrandonMA",
     "license": "MIT",
