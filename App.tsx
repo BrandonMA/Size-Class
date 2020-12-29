@@ -34,7 +34,7 @@ export function App(): JSX.Element {
     }
 
     return (
-        <View>
+        <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
             <Text>{getWidthText()}</Text>
             <Text>{getHeightText()}</Text>
         </View>

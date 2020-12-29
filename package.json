@@ -1,6 +1,6 @@
 {
     "name": "@bma98/size-class",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "React Native library to improve width and height handling",
     "author": "BrandonMA",
     "license": "MIT",
@@ -56,7 +56,7 @@
         "utility-types": "^3.10.0"
     },
     "dependencies": {
-        "expo-device": "^3.0.0"
+        "expo-device": "2.4.0"
     },
     "peerDependencies": {
         "react": "~16.13.1",

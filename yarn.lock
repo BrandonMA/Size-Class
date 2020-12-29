@@ -4966,11 +4966,12 @@ expo-constants@~9.3.3:
     fbjs "1.0.0"
     uuid "^3.3.2"
 
-expo-device@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/expo-device/-/expo-device-3.0.0.tgz#41be12d292ce15bb29c12ae748a2faab11c0e057"
-  integrity sha512-E3JxIF40K5GMGoChi3Nv6SuXCe3Tt30FmlOW4qDeQlLkM+goAEE9zzwUmkzzGVmdD0wU2XEs7aLqFcSUJZzslw==
+expo-device@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/expo-device/-/expo-device-2.4.0.tgz#277f830827c3b12710f1db5c0096d507e751689b"
+  integrity sha512-mxBiX6nvvtbKot3Kmmb2y8lo4Ki8jWGdUnpC2OX70Yiy75c8mOVbHUe2VMEnx3SysXycwvC5KzJSDy+PuDqovg==
   dependencies:
+    fbjs "1.0.0"
     ua-parser-js "^0.7.19"
 
 expo-error-recovery@~1.4.0:
