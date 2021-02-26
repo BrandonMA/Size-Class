@@ -1,0 +1,3 @@
+// @ts-ignore
+
+global.window = {};

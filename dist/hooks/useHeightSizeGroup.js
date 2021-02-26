@@ -1,10 +1,5 @@
-import { HeightSizeClass } from '../types';
-import { useSizeValue } from './useSizeValue';
-import { useDeviceType } from './useDeviceType';
-import { getSizeForType } from '../util/getSizeForType';
+import { useSizeGroup } from './useSizeGroup';
 export function useHeightSizeGroup() {
-    var type = useDeviceType();
-    var height = useSizeValue('height');
-    return [getSizeForType(type, height, HeightSizeClass), type];
+    return useSizeGroup('height');
 }
 //# sourceMappingURL=useHeightSizeGroup.js.map

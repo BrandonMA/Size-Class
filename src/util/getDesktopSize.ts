@@ -1,14 +1,13 @@
-import { Size } from '../types';
-import { SizeClass } from '../types/SizeClass';
+import { SizeType, SizeClass } from '../types';
 
-export function getDesktopSize(dimension: number, SizeClass: SizeClass): Size {
+export function getDesktopSize(dimension: number, SizeClass: SizeClass): SizeType {
     if (dimension >= SizeClass.extraLargeDesktop) {
-        return Size.extraLarge;
+        return SizeType.extraLarge;
     } else if (dimension >= SizeClass.largeDesktop) {
-        return Size.large;
+        return SizeType.large;
     } else if (dimension >= SizeClass.compactDesktop) {
-        return Size.medium;
+        return SizeType.medium;
     } else {
-        return Size.compact;
+        return SizeType.compact;
     }
 }

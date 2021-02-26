@@ -1,7 +1,9 @@
 export * from './DimensionsListenerParameter';
 export * from './HeightSizeClass';
-export * from './Size';
+export * from './SizeType';
 export * from './WidthSizeClass';
 export * from './SizeClass';
 export * from './SizeGroup';
+export * from './DeviceType';
+export * from './DimensionType';
 //# sourceMappingURL=index.js.map

@@ -1,4 +1,4 @@
-import { DeviceType } from 'expo-device';
+import { DeviceType } from '../../../src/types/DeviceType';
 import { getDefaultDeviceType } from '../../../src/util/getDefaultDeviceType';
 
 describe('getDefaultDeviceType', () => {

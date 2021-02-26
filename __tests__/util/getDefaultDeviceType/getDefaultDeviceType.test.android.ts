@@ -1,4 +1,4 @@
-import { DeviceType } from 'expo-device';
+import { DeviceType } from '../../../src/types/DeviceType';
 import { Platform } from 'react-native';
 import { getDefaultDeviceType } from '../../../src/util/getDefaultDeviceType';
 

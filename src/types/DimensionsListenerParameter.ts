@@ -1,4 +1,7 @@
-import { ScaledSize } from 'react-native';
+interface ScaledSize {
+    width: number;
+    height: number;
+}
 
 export interface DimensionsListenerParameter {
     window: ScaledSize;

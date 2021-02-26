@@ -7,7 +7,5 @@ describe('useDeviceType', () => {
     it('returns default based on platform', async () => {
         const resultObject = renderHook(() => useDeviceType());
         expect(resultObject.result.current).toBe(DeviceType.DESKTOP);
-        await resultObject.waitForNextUpdate();
-        expect(resultObject.result.current).toBe(DeviceType.PHONE);
     });
 });

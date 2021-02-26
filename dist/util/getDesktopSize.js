@@ -1,16 +1,16 @@
-import { Size } from '../types';
+import { SizeType } from '../types';
 export function getDesktopSize(dimension, SizeClass) {
     if (dimension >= SizeClass.extraLargeDesktop) {
-        return Size.extraLarge;
+        return SizeType.extraLarge;
     }
     else if (dimension >= SizeClass.largeDesktop) {
-        return Size.large;
+        return SizeType.large;
     }
     else if (dimension >= SizeClass.compactDesktop) {
-        return Size.medium;
+        return SizeType.medium;
     }
     else {
-        return Size.compact;
+        return SizeType.compact;
     }
 }
 //# sourceMappingURL=getDesktopSize.js.map

@@ -1,13 +1,5 @@
-import { WidthSizeClass } from '../types';
-import { useSizeValue } from './useSizeValue';
-import { useDeviceType } from './useDeviceType';
-import { getSizeForType } from '../util/getSizeForType';
-import { useMemo } from 'react';
+import { useSizeGroup } from './useSizeGroup';
 export function useWidthSizeGroup() {
-    var type = useDeviceType();
-    var width = useSizeValue('width');
-    return useMemo(function () {
-        return [getSizeForType(type, width, WidthSizeClass), type];
-    }, [type, width]);
+    return useSizeGroup('width');
 }
 //# sourceMappingURL=useWidthSizeGroup.js.map

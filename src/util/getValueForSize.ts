@@ -1,14 +1,14 @@
-import { Size } from '../types';
+import { SizeType } from '../types';
 
-export function getValueForSize<T>(size: Size, xl: T, lg: T, md: T, sm: T): T {
+export function getValueForSize<T>(size: SizeType, xl: T, lg: T, md: T, sm: T): T {
     switch (size) {
-        case Size.extraLarge:
+        case SizeType.extraLarge:
             return xl;
-        case Size.large:
+        case SizeType.large:
             return lg;
-        case Size.medium:
+        case SizeType.medium:
             return md;
-        case Size.compact:
+        case SizeType.compact:
             return sm;
     }
 }

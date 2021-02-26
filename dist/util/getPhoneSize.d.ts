@@ -1,2 +1,2 @@
-import { Size, SizeClass } from '../types';
-export declare function getPhoneSize(dimension: number, SizeClass: SizeClass): Size;
+import { SizeType, SizeClass } from '../types';
+export declare function getPhoneSize(dimension: number, SizeClass: SizeClass): SizeType;

@@ -1,6 +1,6 @@
-import { Size } from '../types';
+import { SizeType } from '../types';
 export function getValueForLargeSize(size, largeValue, fallback) {
-    if (size === Size.large || size === Size.extraLarge) {
+    if (size === SizeType.large || size === SizeType.extraLarge) {
         return largeValue;
     }
     else {

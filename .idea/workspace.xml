@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1704e6-54df-427c-8f99-76ae39c959c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest/matchMedia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest/navigator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getDefaultDeviceType/index.native.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/getDefaultDeviceType/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/util/getDesktopSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getDesktopSize.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/util/getPhoneSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getPhoneSize.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/util/getTabletSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getTabletSize.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/util/getValueForLargeSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getValueForLargeSize.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/util/getValueForSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getValueForSize.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest/matchMedia.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jest/matchMedia.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/DimensionsListenerParameter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/DimensionsListenerParameter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Size.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/SizeType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/SizeGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/SizeGroup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getDefaultDeviceType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getDesktopSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getDesktopSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getPhoneSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getPhoneSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getSizeForType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getSizeForType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getTabletSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getTabletSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getValueForLargeSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getValueForLargeSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/getValueForSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getValueForSize.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -38,10 +53,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Program Files\nodejs\node_modules\prettier" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.20.0/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="C:\Users\Maldo\Documents\GitHub\Size-Class\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,6 +70,54 @@
       <recent name="C:\Users\Maldo\Documents\GitHub\Size-Class\src" />
     </key>
   </component>
+  <component name="RunManager" selected="Jest.getDefaultDeviceType (2)">
+    <configuration name="getDefaultDeviceType (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/util/getDefaultDeviceType/getDefaultDeviceType.test.android.ts" />
+      <test-names>
+        <test-name value="getDefaultDeviceType" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="getDefaultDeviceType (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/util/getDefaultDeviceType/getDefaultDeviceType.test.web.ts" />
+      <test-names>
+        <test-name value="getDefaultDeviceType" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="getDefaultDeviceType" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/util/getDefaultDeviceType/getDefaultDeviceType.test.ios.ts" />
+      <test-names>
+        <test-name value="getDefaultDeviceType" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.getDefaultDeviceType (2)" />
+        <item itemvalue="Jest.getDefaultDeviceType (1)" />
+        <item itemvalue="Jest.getDefaultDeviceType" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,11 +129,24 @@
       <workItem from="1608588308564" duration="1031000" />
       <workItem from="1608589625978" duration="859000" />
       <workItem from="1608590553910" duration="7477000" />
+      <workItem from="1610413758002" duration="1544000" />
+      <workItem from="1614338245077" duration="2097000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

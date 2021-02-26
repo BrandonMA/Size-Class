@@ -1,4 +1,4 @@
-import { Size } from './Size';
-import { DeviceType } from 'expo-device';
+import { SizeType } from './SizeType';
+import { DeviceType } from './DeviceType';
 
-export type SizeGroup = [Size, DeviceType];
+export type SizeGroup = [SizeType, DeviceType];

@@ -1,20 +1,20 @@
-import { Size } from '../types';
+import { SizeType } from '../types';
 export function getTabletSize(dimension, SizeClass) {
     if (dimension >= SizeClass.extraLargeTablet) {
         // Show a bigger iPad UI for the biggest one
-        return Size.extraLarge;
+        return SizeType.extraLarge;
     }
     else if (dimension >= SizeClass.largeTablet) {
         // Show the ideal iPad UI
-        return Size.large;
+        return SizeType.large;
     }
     else if (dimension >= SizeClass.compactTablet) {
         // Show a slightly reduced interface
-        return Size.medium;
+        return SizeType.medium;
     }
     else {
         // Show a phone interface
-        return Size.compact;
+        return SizeType.compact;
     }
 }
 //# sourceMappingURL=getTabletSize.js.map

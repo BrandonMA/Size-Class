@@ -1,4 +1,4 @@
-import { DeviceType } from 'expo-device';
+import { DeviceType } from '../types';
 
 export function getStringNameFromDeviceType(type: DeviceType): 'unknown' | 'phone' | 'tablet' | 'desktop' | 'tv' {
     switch (type) {

@@ -1,11 +1,11 @@
-import { Size, SizeClass } from '../types';
+import { SizeType, SizeClass } from '../types';
 
-export function getPhoneSize(dimension: number, SizeClass: SizeClass): Size {
+export function getPhoneSize(dimension: number, SizeClass: SizeClass): SizeType {
     if (dimension >= SizeClass.largePhone) {
         // Landscape, you can show more content
-        return Size.medium;
+        return SizeType.medium;
     } else {
         // Normal phone interface
-        return Size.compact;
+        return SizeType.compact;
     }
 }
