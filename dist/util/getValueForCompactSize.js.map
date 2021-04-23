@@ -1,0 +1,1 @@
+{"version":3,"file":"getValueForCompactSize.js","sourceRoot":"","sources":["../../src/util/getValueForCompactSize.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAC;AAEpC,MAAM,UAAU,sBAAsB,CAAI,IAAc,EAAE,YAAe,EAAE,QAAW;IAClF,IAAI,IAAI,KAAK,QAAQ,CAAC,OAAO,EAAE;QAC3B,OAAO,YAAY,CAAC;KACvB;SAAM;QACH,OAAO,QAAQ,CAAC;KACnB;AACL,CAAC"}

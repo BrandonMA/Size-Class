@@ -1,7 +1,7 @@
 import { DeviceType } from '../../types';
 import UAParser from 'ua-parser-js';
 export function getDefaultDeviceType() {
-    var parser = new UAParser(window.navigator.userAgent);
+    const parser = new UAParser(window.navigator.userAgent);
     switch (parser.getResult().device.type) {
         case 'mobile':
             return DeviceType.PHONE;

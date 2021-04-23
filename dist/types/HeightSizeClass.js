@@ -1,4 +1,4 @@
-export var HeightSizeClass = {
+export const HeightSizeClass = {
     // Phone sizes
     compactPhone: 667,
     largePhone: 812,

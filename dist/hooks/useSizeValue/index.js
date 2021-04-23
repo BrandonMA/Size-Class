@@ -10,14 +10,14 @@ function capitalize(text) {
 }
 export function useSizeValue(dimensionType) {
     var _a;
-    var propertyName = "inner" + capitalize(dimensionType);
-    var _b = useState((_a = window[propertyName]) !== null && _a !== void 0 ? _a : 0), dimension = _b[0], setDimension = _b[1];
-    var onChange = useCallback(function (event) {
+    const propertyName = `inner${capitalize(dimensionType)}`;
+    const [dimension, setDimension] = useState((_a = window[propertyName]) !== null && _a !== void 0 ? _a : 0);
+    const onChange = useCallback((event) => {
         setDimension(event.target[dimensionType]);
     }, [dimensionType]);
-    useEffect(function () {
+    useEffect(() => {
         window.addEventListener('resize', onChange);
-        return function () {
+        return () => {
             window.removeEventListener('resize', onChange);
         };
     }, [onChange]);

@@ -5,7 +5,7 @@ export function getDefaultDeviceType() {
         return DeviceType.PHONE;
     }
     else {
-        return DeviceType.DESKTOP;
+        return DeviceType.TABLET;
     }
 }
 //# sourceMappingURL=index.native.js.map

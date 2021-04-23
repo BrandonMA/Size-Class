@@ -1,0 +1,1 @@
+{"version":3,"file":"getValueForLargeSizeType.js","sourceRoot":"","sources":["../../src/util/getValueForLargeSizeType.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAC;AAEpC,MAAM,UAAU,wBAAwB,CAAI,IAAc,EAAE,UAAa,EAAE,QAAW;IAClF,IAAI,IAAI,KAAK,QAAQ,CAAC,KAAK,IAAI,IAAI,KAAK,QAAQ,CAAC,UAAU,EAAE;QACzD,OAAO,UAAU,CAAC;KACrB;SAAM;QACH,OAAO,QAAQ,CAAC;KACnB;AACL,CAAC"}

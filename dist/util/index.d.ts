@@ -1,3 +1,4 @@
 export * from './getStringNameFromDeviceType';
-export * from './getValueForLargeSize';
-export * from './getValueForSize';
+export * from './getValueForLargeSizeType';
+export * from './getValueForSizeType';
+export * from './getValueForCompactSize';

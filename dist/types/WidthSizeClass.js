@@ -1,4 +1,4 @@
-export var WidthSizeClass = {
+export const WidthSizeClass = {
     // Phone sizes
     compactPhone: 375,
     largePhone: 667,

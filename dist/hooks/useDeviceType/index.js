@@ -1,8 +1,8 @@
 import { useLayoutEffect, useState } from 'react';
 import { getDefaultDeviceType } from '../../util/getDefaultDeviceType';
 export function useDeviceType() {
-    var _a = useState(getDefaultDeviceType()), type = _a[0], setType = _a[1];
-    useLayoutEffect(function () {
+    const [type, setType] = useState(getDefaultDeviceType());
+    useLayoutEffect(() => {
         setType(getDefaultDeviceType());
     }, []);
     return type;
