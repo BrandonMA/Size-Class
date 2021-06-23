@@ -5,6 +5,6 @@ describe('useHeightSizeGroup', () => {
     it('returns SizeGroup', () => {
         const { result } = renderHook(() => useHeightSizeGroup());
         expect(result.current).not.toBeNull();
-        expect(result.current.length).toBe(2);
+        expect(result.current.length).toBe(3);
     });
 });

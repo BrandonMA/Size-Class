@@ -6,7 +6,7 @@ import { getSizeType } from '../util/getSizeType';
 
 export function useSizeGroup(dimensionType: DimensionType): SizeGroup {
     const deviceType = useDeviceType();
-    const height = useSizeValue(dimensionType);
-    const sizeType = getSizeType(deviceType, height, dimensionType === 'width' ? WidthSizeClass : HeightSizeClass);
-    return [sizeType, deviceType];
+    const sizeValue = useSizeValue(dimensionType);
+    const sizeType = getSizeType(deviceType, sizeValue, dimensionType === 'width' ? WidthSizeClass : HeightSizeClass);
+    return [sizeType, deviceType, sizeValue];
 }

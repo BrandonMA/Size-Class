@@ -17,9 +17,9 @@ export function useSizeValue(dimensionType: DimensionType): number {
 
     const onChange = useCallback(
         (event) => {
-            setDimension(event.target[dimensionType]);
+            setDimension(event.target[propertyName]);
         },
-        [dimensionType]
+        [propertyName]
     );
 
     useEffect(() => {

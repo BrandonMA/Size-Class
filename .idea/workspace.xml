@@ -2,99 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1704e6-54df-427c-8f99-76ae39c959c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/hooks/useValueForCompactSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/hooks/useValueForCompactSizeType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/hooks/useValueForCompactSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/hooks/useValueForLargeSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/hooks/useValueForLargeSizeType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/hooks/useValueForLargeSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getDesktopSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getDesktopSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getPhoneSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getPhoneSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getTabletSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getTabletSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForCompactSize.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForCompactSize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForCompactSize.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForLargeSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForLargeSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForSizeType.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/util/getValueForSizeType.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useValueForCompactSizeType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useValueForLargeSizeType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/getValueForCompactSize.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/getDesktopSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getDesktopSize.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/getPhoneSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getPhoneSize.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/getTabletSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getTabletSize.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/getValueForLargeSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getValueForLargeSize.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/getValueForSize.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/util/getValueForSize.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/isDesktop/isDesktop.test.android.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/isDesktop/isDesktop.test.ios.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/util/isDesktop/isDesktop.test.web.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.native.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useDeviceType/index.native.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useSizeGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useSizeGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useSizeGroup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useSizeGroup.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.native.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hooks/useSizeValue/index.native.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useValueForLargeSize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useValueForLargeSize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hooks/useValueForLargeSize.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/types/HeightSizeClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/types/HeightSizeClass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/types/HeightSizeClass.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/types/HeightSizeClass.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/types/WidthSizeClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/types/WidthSizeClass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/types/WidthSizeClass.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/types/WidthSizeClass.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.native.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getDefaultDeviceType/index.native.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDesktopSize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDesktopSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getDesktopSizeType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getDesktopSize.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getPhoneSize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getPhoneSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getPhoneSizeType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getPhoneSize.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getSizeType.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getSizeType.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getSizeType.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getSizeType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getSizeType.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getSizeType.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getTabletSize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getTabletSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getTabletSizeType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getTabletSize.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getValueForLargeSize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getValueForLargeSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getValueForLargeSizeType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getValueForLargeSize.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getValueForSize.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getValueForSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/getValueForSizeType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/getValueForSize.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/util/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/isDesktop.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/isDesktop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/util/isDesktop.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useValueForLargeSize.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getDefaultDeviceType/index.native.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getDefaultDeviceType/index.native.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getDesktopSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getDesktopSizeType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getPhoneSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getPhoneSizeType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getSizeType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getSizeType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getTabletSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getTabletSizeType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getValueForLargeSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getValueForLargeSizeType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/getValueForSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/getValueForSizeType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/isDesktop.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useSizeGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useSizeGroup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useSizeValue/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useSizeValue/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/SizeGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/SizeGroup.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +41,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
