@@ -13,8 +13,8 @@ export function useSizeValue(dimensionType) {
     const propertyName = `inner${capitalize(dimensionType)}`;
     const [dimension, setDimension] = useState((_a = window[propertyName]) !== null && _a !== void 0 ? _a : 0);
     const onChange = useCallback((event) => {
-        setDimension(event.target[dimensionType]);
-    }, [dimensionType]);
+        setDimension(event.target[propertyName]);
+    }, [propertyName]);
     useEffect(() => {
         window.addEventListener('resize', onChange);
         return () => {
