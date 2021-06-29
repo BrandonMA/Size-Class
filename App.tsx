@@ -17,6 +17,8 @@ export function App(): JSX.Element {
                 return 'Large UI for width';
             case 'extraLarge':
                 return 'Extra Large UI for width';
+            default:
+                return 'Nothing detected';
         }
     }
 
@@ -30,6 +32,8 @@ export function App(): JSX.Element {
                 return 'Large UI for height';
             case 'extraLarge':
                 return 'Extra Large UI for height';
+            default:
+                return 'Nothing detected';
         }
     }
 

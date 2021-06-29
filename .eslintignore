@@ -3,4 +3,6 @@ dist/
 node_modules/
 .snapshots/
 *.min.js
-jest/
+.eslintrc.js
+babel.config.js
+metro.config.js

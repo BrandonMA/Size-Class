@@ -8,10 +8,8 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
         'plugin:promise/recommended',
-        'prettier/standard',
         'standard-react',
         'plugin:react/recommended',
-        'prettier/react',
         'plugin:react-hooks/recommended'
     ],
     env: {

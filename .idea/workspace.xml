@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1704e6-54df-427c-8f99-76ae39c959c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useSizeGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useSizeGroup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useSizeValue/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useSizeValue/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/SizeGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/SizeGroup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/hooks/useSizeValue.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/hooks/useSizeValue.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +119,7 @@
       <workItem from="1610413758002" duration="1544000" />
       <workItem from="1614338245077" duration="2097000" />
       <workItem from="1619141137750" duration="1464000" />
+      <workItem from="1624973438735" duration="1806000" />
     </task>
     <servers />
   </component>
