@@ -59,8 +59,9 @@
         "ua-parser-js": "^0.7.24"
     },
     "peerDependencies": {
-        "react": "16.13.1",
-        "react-native": "~0.63.4"
+        "react": "*",
+        "react-dom": "*",
+        "react-is": "*"
     },
     "jest": {
         "collectCoverage": true,

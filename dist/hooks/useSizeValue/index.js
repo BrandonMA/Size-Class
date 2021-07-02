@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
+import { canUseDOM } from '../../util/canUseDom';
 // This is not performant at all when it comes to sizes that change constantly
 // On a real app though, it is not that common to change dimensions many times per second
 // So you can use this hook freely
@@ -11,7 +12,7 @@ function capitalize(text) {
 export function useSizeValue(dimensionType) {
     var _a;
     const propertyName = `inner${capitalize(dimensionType)}`;
-    const [dimension, setDimension] = useState((_a = window[propertyName]) !== null && _a !== void 0 ? _a : 0);
+    const [dimension, setDimension] = useState(canUseDOM ? (_a = window[propertyName]) !== null && _a !== void 0 ? _a : 0 : 0);
     const onChange = useCallback((event) => {
         setDimension(event.target[propertyName]);
     }, [propertyName]);
