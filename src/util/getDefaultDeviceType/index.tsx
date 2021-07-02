@@ -21,6 +21,6 @@ export function getDefaultDeviceType(): DeviceType {
                 return DeviceType.DESKTOP;
         }
     } else {
-        return DeviceType.UNKNOWN;
+        return DeviceType.DESKTOP;
     }
 }
