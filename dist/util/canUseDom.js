@@ -1,2 +1,4 @@
-export const canUseDOM = !!(typeof window !== 'undefined' && window.document);
+export default function canUseDOM() {
+    return typeof window !== 'undefined' && window.document != null;
+}
 //# sourceMappingURL=canUseDom.js.map

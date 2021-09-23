@@ -1,8 +1,8 @@
 import { DeviceType } from '../../types';
 import UAParser from 'ua-parser-js';
-import { canUseDOM } from '../canUseDom';
+import canUseDOM from '../canUseDom';
 export function getDefaultDeviceType() {
-    if (canUseDOM) {
+    if (canUseDOM()) {
         const parser = new UAParser(window.navigator.userAgent);
         switch (parser.getResult().device.type) {
             case 'mobile':
@@ -20,7 +20,7 @@ export function getDefaultDeviceType() {
         }
     }
     else {
-        return DeviceType.UNKNOWN;
+        return DeviceType.DESKTOP;
     }
 }
 //# sourceMappingURL=index.js.map

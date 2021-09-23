@@ -1,1 +1,1 @@
-export declare const canUseDOM: boolean;
+export default function canUseDOM(): boolean;
