@@ -4,11 +4,3 @@ Object.defineProperty(global.window, 'navigator', {
         userAgent: 'Chrome'
     }
 });
-
-// // @ts-ignore
-// global.window = {
-//     // @ts-ignore
-//     navigator: {
-//         userAgent: 'Chrome'
-//     }
-// };
